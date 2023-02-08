@@ -20,27 +20,37 @@
   </ion-page>
 </template>
 
-<script >
-import { defineComponent } from 'vue';
+<script>
+import { defineComponent } from "vue";
 import {
-  IonTabBar, IonTabButton, IonTabs,
-  IonLabel, IonIcon, IonRouterOutlet, IonPage
-} from '@ionic/vue';
-import { ticket, settings, storefront } from 'ionicons/icons';
+  IonTabBar,
+  IonTabButton,
+  IonTabs,
+  IonLabel,
+  IonIcon,
+  IonRouterOutlet,
+  IonPage,
+} from "@ionic/vue";
+import { ticket, settings, storefront } from "ionicons/icons";
 
 export default defineComponent({
-  name: 'TabsPage',
+  name: "TabsPage",
   components: {
-    IonPage, IonTabBar, IonTabButton, IonTabs,
-    IonLabel, IonIcon, IonRouterOutlet
+    IonPage,
+    IonTabBar,
+    IonTabButton,
+    IonTabs,
+    IonLabel,
+    IonIcon,
+    IonRouterOutlet,
   },
   setup() {
     return {
       ticket,
       settings,
       storefront,
-    }
-  }
+    };
+  },
 });
 </script>
 

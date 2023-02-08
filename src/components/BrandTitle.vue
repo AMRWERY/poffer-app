@@ -1,14 +1,14 @@
 <template>
-    <div>
-        <h3 class="heading">Proffers</h3>
-    </div>
+  <div>
+    <h3 class="heading">Proffers</h3>
+  </div>
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
 
 .heading {
-    font-family: 'Amaranth', sans-serif;
-    margin-top: 10px;
+  font-family: "Amaranth", sans-serif;
+  margin-top: 10px;
 }
 </style>
